@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание - Бузин А.В.</title>
+    <link rel="stylesheet" href="css/libs/fontawesome/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="popup">
+            <div class="wrapper-tab">
+                <label class="popup-tab active">Вход</label>
+                <label class="popup-tab">Регистрация</label>
+            </div>
+            <!-- /.wrapper-tab -->
+            <form action="#" class="tab-form active">
+                <div class="block-email">
+                    <input type="email" placeholder="E-mail" name="email" class="tab-form_input" id="email" required>
+                    <span></span>
+                </div>
+                <!-- /.block-email -->
+                <div class="block-password">
+                    <a href="#" class="hide">Скрыть</a>
+                    <input type="password" placeholder="Пароль" name="password" class="tab-form_input" id="password" required>
+                    <span></span>
+                </div>
+                <!-- /.block-password -->
+                <div class="memorize">
+                    <input type="checkbox" id="memorize">
+                    <label for="memorize">Запомнить меня</label>
+                </div>
+                <button class="button" id="enter">Войти</button>
+                <!-- /.button -->
+                <a href="#" class="tab-form_a">Забыли свой пароль?</a>
+            </form>
+            <!-- /.tab-form -->
+
+            <form action="#" class="tab-form">
+                <div class="block-name">
+                    <input type="text" placeholder="Введите свое имя" name="name" class="tab-form_input" required>
+                    <span></span>
+                </div>
+                <!-- /.block-name -->
+                <div class="block-email">
+                    <input type="email" placeholder="Введите E-mail адрес" name="email" class="tab-form_input" required>
+                    <span></span>
+                </div>
+                <!-- /.block-email -->
+                <div class="block-password">
+                    <a href="#" class="hide">Скрыть</a>
+                    <input type="password" placeholder="Введите пароль" name="password" class="tab-form_input" required>                    
+                    <span></span>
+                </div>
+                <!-- /.block-password -->
+                <button class="button button-reg">Регистрация</button>
+                <!-- /.button -->
+                <div class="recover">
+                    <input type="checkbox" id="recover" required>
+                    <label for="recover">Ознакомлен(-а) и принимаю <a href="#">условия регистрации</a> </label>
+                </div>
+                <!-- /.recover -->
+            </form>
+            <!-- /.tab-form -->
+        </div>
+        <!-- /.popup -->
+
+    </div>
+    <!-- /.wrapper -->
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
